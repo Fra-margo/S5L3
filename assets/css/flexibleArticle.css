@@ -1,0 +1,16 @@
+body{
+    color: #711e03;
+    font-size: 1.2rem;
+}
+
+#article{
+    background-color: #fef7e2;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#mieleArticolo{
+    width: 100%;
+    height: auto;
+}
+

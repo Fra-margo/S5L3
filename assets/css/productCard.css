@@ -1,0 +1,41 @@
+body{
+    color: #711e03;
+    font-size: 1.2rem;
+}
+
+h3{
+    font-weight: bold;
+}
+
+#productCard{
+    background-color: #fef7e2;
+    border-radius: 20%;
+}
+
+#miele{
+    width: 100%;
+    height: auto;
+    border-radius: 20% 20% 0 0;
+}
+#description{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#addProduct{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: #ffdf7f;
+    border-radius: 30px;
+    border: none;
+    color: #711e03;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    width: 50%;
+}

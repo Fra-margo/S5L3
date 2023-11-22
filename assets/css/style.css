@@ -1,0 +1,176 @@
+body{
+    color: #711e03;
+    font-size: 1.2rem;
+    margin: 20px;
+}
+/* HEADER */
+h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.0em;
+}
+
+nav{
+    background-color: #fef7e2;
+    border-radius: 70px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+
+li{
+    background-color:  #ffdf7f;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 30%;
+    margin: 10px;
+}
+
+#shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+        
+}
+
+#logo{
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 620px){
+    #shop{
+        display: flex;
+        order: -1;
+        width: 80%;
+    }
+
+    ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 768px){
+    #shop{
+        width: 80%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 50px;
+    }
+    li{
+        white-space: nowrap;
+    }
+}
+@media screen and (min-width:769px) and (max-width: 900px){
+    nav{
+        float: left;
+        width: 30%;
+        height: 100vh;
+        border-radius: 0px;
+        margin: 0px;
+    }
+    ul{
+        flex-direction: column;
+    }
+    
+    #shop{
+        order: -1
+    }
+}
+/* SECTION */
+h3{
+    font-weight: bold;
+}
+
+.productCard{
+    background-color: #fef7e2;
+    border-radius: 20%;
+    margin-top: 40px;
+}
+
+.miele{
+    width: 100%;
+    height: auto;
+    border-radius: 20% 20% 0 0;
+}
+.description{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.addProduct{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: #ffdf7f;
+    border-radius: 30px;
+    border: none;
+    color: #711e03;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    width: 50%;
+}
+@media screen and (min-width:621px){
+    h1{
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    #boxProduct{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .productCard{
+        width: 40%;
+    }
+}
+@media screen and (min-width:769px) and (max-width: 900px){
+    .productCard{
+        width: 30%;
+    }
+    #boxProduct div:last-child{
+        display: none;
+    }
+}
+
+/* ARTICLE */
+h2{
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+#article{
+    background-color: #fef7e2;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#mieleArticolo{
+    width: 100%;
+    height: auto;
+}
+@media screen and (min-width: 621px){
+    h2{
+        text-align: left;
+    }
+
+    article h3{
+        font-size: 1.3em;
+    }
+}
